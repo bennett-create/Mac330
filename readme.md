@@ -2,8 +2,8 @@
 
 A work-in-progress Minecraft shaderpack for **Iris / OptiFine**, targeting
 **Minecraft 1.17+** and written against GLSL `#version 330`. It started from
-Bálint's `Base-330` template and is being built up into a physically-motivated
-lighting pipeline.
+Bálint's `Base-330` template and is being built up into a MacOS first physically
+-motivated lighting pipeline.
 
 > ⚠️ **Heavily in development.** This is an experimental, fast-moving project —
 > currently `v0.0.1` on the `dev` branch. Features are incomplete, defaults are
@@ -65,4 +65,5 @@ code; all output is reviewed and integrated by me.
 ## Credits & license
 
 - Base template: **Bálint** (`Base-330`, `#version 330`, MC 1.17+).
+- Pixel locked lighting inspired by Complimentary Shaders by EminGT
 - Licensed under the terms in `LICENSE`.
