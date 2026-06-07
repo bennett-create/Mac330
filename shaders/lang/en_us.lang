@@ -1,0 +1,119 @@
+# Mac330 — Shader Options labels, tooltips and screen titles
+# Read by Iris / OptiFine for the in-game Shader Options menu.
+
+## Screen titles
+screen.LIGHTING=Lighting
+screen.GI=Global Illumination
+screen.GI_QUALITY=GI Quality
+screen.SHADOWS=Shadows
+screen.SHADOW_TUNING=Shadow Bias & Tuning
+screen.SKY=Sky & Atmosphere
+screen.MATERIALS=Materials
+screen.POST=Post-processing
+screen.EXPOSURE=Auto Exposure
+screen.SCOTOPIC=Low-light Vision
+
+## Lighting
+option.ENABLE_PHYSICAL_LIGHTING=Physical Lighting
+option.ENABLE_PHYSICAL_LIGHTING.comment=Drive lighting from approximate real-world illuminance (lux) instead of arbitrary constants.
+option.ENABLE_LIGHT_TEMPERATURE=Color Temperature
+option.ENABLE_LIGHT_TEMPERATURE.comment=Shift sunlight color across the day on a Kelvin curve: warm sunrise, neutral midday, warm sunset.
+option.PHYSICAL_LIGHTING_EXPOSURE=Lighting Exposure
+option.SUNLIGHT_INTENSITY=Sunlight Intensity
+option.SUN_TEMPERATURE_BLEND=Sun Temp Blend
+option.SKYLIGHT_TEMPERATURE_BLEND=Skylight Temp Blend
+option.CAVE_AMBIENT_LUX=Cave Ambient
+option.BLOCKLIGHT_MAX_LUX=Block Light Brightness
+
+## Global illumination
+option.ENABLE_GI=Global Illumination
+option.ENABLE_GI.comment=Screen-space GI: single-bounce indirect light, color bleeding and ambient occlusion. Costly.
+option.GI_STRENGTH=Strength
+option.GI_APPLY_STRENGTH=Apply Strength
+option.GI_RADIUS=Radius
+option.GI_MAX_VIEW_DISTANCE=Max Distance
+option.GI_SUN_BOUNCE_STRENGTH=Sun Bounce
+option.GI_COLOR_SATURATION=Color Bleed Saturation
+option.GI_DEBUG=Debug View
+option.GI_DEBUG.comment=Show the raw GI buffer for debugging.
+option.GI_RENDER_SCALE=Render Scale
+option.GI_RENDER_SCALE.comment=Trace 1 in N pixels. Higher = faster but noisier. 1 = full resolution.
+option.GI_SAMPLES=Samples
+option.GI_STEPS=Ray Steps
+option.GI_FILTER_RADIUS=Denoise Radius
+option.GI_SUN_SHADOW_CHECK=Sun Bounce Shadows
+option.GI_SUN_SHADOW_CHECK.comment=Sample the shadow map when bouncing sunlight. More accurate, slightly slower.
+
+## Shadows
+option.shadowMapResolution=Shadow Resolution
+option.SHADOW_SAMPLES=Filter Samples
+option.SHADOW_RADIUS=Softness Radius
+option.SHADOW_FILTER_JITTER=Filter Jitter
+option.PIXELATED_SHADOWS=Pixelated Shadows
+option.PIXELATED_SHADOWS.comment=Snap shadows to a block-aligned grid for a stylized, blocky look.
+option.PIXELATED_SHADOW_GRID_PHASE=Pixel Grid Phase
+option.PLANT_SHADOWS=Plant Shadows
+option.SHADOW_BIAS=Depth Bias
+option.SHADOW_SLOPE_BIAS=Slope Bias
+option.SHADOW_NORMAL_BIAS=Normal Bias
+option.SHADOW_COMPARE_SOFTNESS=Compare Softness
+
+## Sky & atmosphere
+option.ENABLE_REALISTIC_SKY=Realistic Sky
+option.ENABLE_REALISTIC_SKY.comment=Analytic atmosphere with Rayleigh/Mie scattering and rendered sun & moon discs.
+option.sunPathRotation=Sun Path Rotation
+option.SKY_EXPOSURE=Sky Exposure
+option.ATMOSPHERE_HAZE=Atmospheric Haze
+option.SUN_DISK_INTENSITY=Sun Disk Intensity
+option.MOON_DISK_INTENSITY=Moon Disk Intensity
+
+## Materials
+option.ENABLE_SUBSURFACE_SCATTERING=Subsurface Scattering
+option.ENABLE_SUBSURFACE_SCATTERING.comment=Light transmission through thin surfaces such as leaves.
+option.SSS_STRENGTH=SSS Strength
+option.SSS_TINT_STRENGTH=SSS Tint
+
+## Post-processing
+option.TONEMAP_EXPOSURE=Tonemap Exposure
+option.ENABLE_PHYS_BLOOM=Bloom
+option.ENABLE_PHYS_BLOOM.comment=Energy-preserving multi-scale bloom.
+option.BLOOM_STRENGTH=Bloom Strength
+option.BLOOM_RADIUS=Bloom Radius
+option.BLOOM_RESPONSE=Bloom Response
+
+## Auto-exposure / eye adaptation
+option.ENABLE_EYE_ADAPTATION=Auto Exposure
+option.ENABLE_EYE_ADAPTATION.comment=Adjust exposure to scene brightness, like an eye adapting to light.
+option.EYE_TARGET_LUMINANCE=Target Brightness
+option.EYE_CENTER_WEIGHT=Center Weight
+option.EYE_MIN_EXPOSURE=Min Exposure
+option.EYE_MAX_EXPOSURE=Max Exposure
+option.EYE_LIGHT_ADAPT_SPEED=Light Adapt Speed
+option.EYE_DARK_ADAPT_SPEED=Dark Adapt Speed
+option.EYE_SCOTOPIC_BLEND=Night Vision Blend
+option.EYE_SCOTOPIC_LUMINANCE=Night Vision Threshold
+option.EYE_SCOTOPIC_EXPOSURE=Night Vision Exposure
+
+## Toggle value labels (Off / On instead of 0 / 1)
+value.ENABLE_PHYSICAL_LIGHTING.0=Off
+value.ENABLE_PHYSICAL_LIGHTING.1=On
+value.ENABLE_LIGHT_TEMPERATURE.0=Off
+value.ENABLE_LIGHT_TEMPERATURE.1=On
+value.ENABLE_GI.0=Off
+value.ENABLE_GI.1=On
+value.GI_DEBUG.0=Off
+value.GI_DEBUG.1=On
+value.GI_SUN_SHADOW_CHECK.0=Off
+value.GI_SUN_SHADOW_CHECK.1=On
+value.PIXELATED_SHADOWS.0=Off
+value.PIXELATED_SHADOWS.1=On
+value.PLANT_SHADOWS.0=Off
+value.PLANT_SHADOWS.1=On
+value.ENABLE_REALISTIC_SKY.0=Off
+value.ENABLE_REALISTIC_SKY.1=On
+value.ENABLE_SUBSURFACE_SCATTERING.0=Off
+value.ENABLE_SUBSURFACE_SCATTERING.1=On
+value.ENABLE_PHYS_BLOOM.0=Off
+value.ENABLE_PHYS_BLOOM.1=On
+value.ENABLE_EYE_ADAPTATION.0=Off
+value.ENABLE_EYE_ADAPTATION.1=On

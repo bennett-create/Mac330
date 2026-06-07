@@ -1,7 +1,7 @@
 #ifndef SETTINGS_GLSL
 #define SETTINGS_GLSL
 
-#define ENABLE_GI 1 // [0 1]
+#define ENABLE_GI 0 // [0 1]
 #define GI_RENDER_SCALE 2 // [1 2 4]
 #define GI_SAMPLES 12 // [8 12 16 24 32]
 #define GI_STEPS 5 // [4 5 6 8 10]
@@ -46,8 +46,8 @@
 #define MOON_DISK_INTENSITY 0.65 // [0.25 0.5 0.65 0.85 1.0]
 
 #define PIXELATED_SHADOWS 1 // [0 1]
-#define PIXELATED_SHADOW_GRID_PHASE 0.0 // [0.0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1.0]
-#define PLANT_SHADOWS 0 // [0 1]
+#define PIXELATED_SHADOW_GRID_PHASE 0.5 // [0.0 0.125 0.25 0.375 0.5 0.625 0.75 0.875 1.0]
+#define PLANT_SHADOWS 1 // [0 1]
 
 #define ENABLE_SUBSURFACE_SCATTERING 1 // [0 1]
 #define SSS_STRENGTH 0.75 // [0.0 0.25 0.5 0.75 1.0 1.25 1.5]
@@ -57,7 +57,7 @@
 #define BLOOM_STRENGTH 0.065 // [0.0 0.025 0.05 0.065 0.08 0.1 0.14 0.2]
 #define BLOOM_RADIUS 1.0 // [0.5 0.75 1.0 1.25 1.5 2.0]
 #define BLOOM_RESPONSE 1.0 // [0.5 0.75 1.0 1.25 1.5 2.0]
-#define TONEMAP_EXPOSURE 2.0 // [0.25 0.5 0.75 1.0 1.25 1.5 2.0 3.0 4.0]
+#define TONEMAP_EXPOSURE 1.0 // [0.25 0.5 0.75 1.0 1.25 1.5 2.0 3.0 4.0]
 
 #define ENABLE_EYE_ADAPTATION 1 // [0 1]
 #define EYE_TARGET_LUMINANCE 0.30 // [0.16 0.22 0.30 0.38 0.50]
