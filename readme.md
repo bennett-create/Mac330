@@ -3,7 +3,12 @@
 A work-in-progress Minecraft shaderpack for **Iris / OptiFine**, targeting
 **Minecraft 1.17+** and written against GLSL `#version 330`. It started from
 Bálint's `Base-330` template and is being built up into a MacOS first physically
--motivated lighting pipeline.
+-motivated lighting pipeline. After making personal ports of SEUS Renewed & 
+Photon, nothing was really scratching the itch for me in terms of realism, so 
+I'm working on this. This is largely a personal project, but I've set it to public
+in case anyone else is interested. This project is only being tested on 1.21+ on
+macOS so your mileage may vary, but odds are it'll work for you, given how strict
+macOS is with anything openGL related.
 
 > ⚠️ **Heavily in development.** This is an experimental, fast-moving project —
 > currently `v0.0.1` on the `dev` branch. Features are incomplete, defaults are
@@ -60,7 +65,10 @@ Currently `0.0.1`: early scaffolding of the lighting pipeline.
 
 This pack is developed with the help of AI coding tools — **Anthropic's Claude
 Code** and **OpenAI's Codex**. They're used to write, refactor, and tune shader
-code; all output is reviewed and integrated by me.
+code; all output is reviewed and integrated by me. Honestly I'm just not built
+for linear algebra, and a lot of the maths in this is over my head. I'm an
+artist by trade, and this project is based on my disdain for Minecraft's
+default rendering and the lack of a realism-focused shader built for macOS.
 
 ## Credits & license
 
